@@ -1,5 +1,15 @@
 .App {
   text-align: center;
+  margin: 30px;
+  
+}
+
+body {
+  background-color: yellow;
+}
+
+.catForm {
+  width: 500px;
 }
 
 .App-logo {
@@ -13,6 +23,12 @@
   }
 }
 
+input[type=text] {
+  background-color: #3CBC8D;
+  color: white;
+  padding: 10px;
+  margin: 10px;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -36,3 +52,5 @@
     transform: rotate(360deg);
   }
 }
+
+
